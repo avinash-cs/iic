@@ -75,7 +75,7 @@
      border-radius: 3px;
 
      z-index: 1;
-
+   
      transform-origin: 4px 0px;
 
      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
@@ -698,7 +698,7 @@
 
  /*Navigation*/
  /*home about*/
- @media screen and (max-width: 650px) {
+ @media screen and (max-width: 675px) {
 
      .about-home {
          display: block;
@@ -724,6 +724,8 @@
      .col-3,
      .col-2,
      .col-1 {
+         color: blue;
+         font-size: 14px;
          width: 100%;
          margin-left: 10%;
          margin: none;
@@ -787,6 +789,7 @@
     }
    
      .contact {
+         ]
          padding: 30px;
      }
 
