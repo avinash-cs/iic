@@ -7,6 +7,10 @@
      font-family: "Avenir Next", "Avenir", sans-serif;
      overflow-x: hidden;
  }
+
+ /*Image Slider*/
+ .mySlides {display:none;}
+ /*End Image Slider*/
  .category{
      display: flex;
      flex-wrap: wrap;
@@ -579,7 +583,7 @@
 
  .event {
      display: flex;
-     margin: 40px;
+     margin: 20px;
      
  }
 
@@ -590,7 +594,7 @@
  .event-col-2 {
      background-color: black;
      width: 50%;
-     padding: 20px;
+     padding: 30px;
      float: left;
  }
 
@@ -817,7 +821,7 @@
     }
    
      .contact {
-         ]
+         
          padding: 30px;
      }
 
