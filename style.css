@@ -6,6 +6,7 @@
      color: black;
      font-family: "Avenir Next", "Avenir", sans-serif;
      overflow-x: hidden;
+    
  }
 
  /*Image Slider*/
@@ -40,10 +41,11 @@
  }
  .before-nav{
     width: 100%;
+    
  }
 
  .soc-media:hover {
-     background-color: purple;
+     background-color: black;
      cursor: pointer;
  }
 
@@ -161,7 +163,7 @@
  .iic-logo {
      /* margin-top: -3%; */
      padding: 10px;
-     height: 175px;
+     height: 185px;
      width: 90%;
      margin-left: 120px;
      display: inline;
@@ -181,33 +183,39 @@
 
  .navigation {
      color: white;
+     
      text-align: center;
      display: inline;
  }
 
  #nav {
-     margin-top: -2px;
      /*background: blue;*/
-     padding: 2%;
+     margin-right: -120px;
+     margin-top: 38px;
+     height: 80px;
      list-style: none;
- }
+     /* background-color: purple; */
+     padding:10px;
+    }
 
  #nav-li {
-
+     
      padding: 2%;
      list-style: none;
      display: inline;
  }
 
- /*
-#iic-logo {
-    margin-top: -3%;
-    /* height: 10%; 
+ #iic-logo {
+    height: 160px;
+    margin-left: -40px;
+    /* background-color: white;  */
     width: 25%;
+    /* border: 2px solid black; */
+    margin-top: -40px;
     display: inline;
     float: left;
 }
-
+/*
 #jcbust {
     margin-top: -20px;
     height: 120px;
@@ -216,17 +224,19 @@
     float: right;
 }
 */
- /* #nav-bu {
+#nav-bu a{
+    text-decoration: none;
+}
+ #nav-bu {
     background-color: red;
-    border:2px solid red;
+    border:2px solid rgb(250, 86, 86);
     color: white;
-    font-size: 24px;
-    margin-top: 30px;
+    font-size: 18px;
+    /* margin-top: 30px; */
     padding: 10px;
     cursor: pointer;
     border-radius: 6px;
-} */
- */
+} 
 
  /*footer*/
  .footer {
